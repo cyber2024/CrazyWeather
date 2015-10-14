@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="16dp"
+              android:gravity="center_vertical">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:src="@drawable/ic_weather_placeholder"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sdfDay"
+        android:layout_weight="3"
+        android:text="Today"/>
+  <!--  <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sdfDescription"
+        android:layout_weight="0"
+        android:text="Sunny"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sdfTemp"
+        android:layout_weight="0"
+        android:text="88/63"
+        android:gravity="right"/> -->
+</LinearLayout>

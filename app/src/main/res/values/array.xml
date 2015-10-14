@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prefs_temperature_units_array">
+        <item>Celcius</item>
+        <item>Farenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+</resources>
